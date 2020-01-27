@@ -1,0 +1,35 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    font-size:100%; 
+    border: none; 
+    outline: none; 
+    font-weight: 300; 
+    box-sizing: border-box; 
+}
+
+.top-header-conteiner{
+    background-color: #1E1D24;
+    color: #95918D;
+}
+
+.grid-infos-conteiner{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 200px 200px 200px 400px 200px;
+    padding: 12px;
+    font-size: 13px;
+}
+
+.grid-infos-item{
+    text-align: center;
+}
+
+.grid-infos-item:nth-child(5){
+    color: darkgoldenrod;
+}
+
+.grid-infos-item:nth-child(5):hover{
+    color: white;
+    transition: 0.5s;
+}
