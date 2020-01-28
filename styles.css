@@ -8,12 +8,13 @@
     box-sizing: border-box; 
 }
 
-.top-header-conteiner{
+.top-header-container{
     background-color: #1E1D24;
     color: #95918D;
+    padding: 3px;
 }
 
-.grid-infos-conteiner{
+.grid-infos-container{
     display: grid;
     grid-column-gap: 20px;
     grid-template-columns: 200px 200px 200px 400px 200px;
@@ -32,4 +33,31 @@
 .grid-infos-item:nth-child(5):hover{
     color: white;
     transition: 0.5s;
+}
+
+.my-nav{
+    position: absolute !important;
+    width: 100%;
+    z-index: 999;
+    background: transparent !important;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #95918D;
+    padding: 25px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: goldenrod;
+    transition: 0.5s;
+}
+
+.carousel-caption{
+    bottom: 40% !important;
 }
