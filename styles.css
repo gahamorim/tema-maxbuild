@@ -5,7 +5,7 @@
     border: none; 
     outline: none; 
     font-weight: 300; 
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .top-header-container{
@@ -43,7 +43,7 @@
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: #95918D;
-    padding: 25px;
+    padding: 30px 45px;
 }
 
 .nav-link{
@@ -58,6 +58,106 @@
     transition: 0.5s;
 }
 
+.navbar-nav {
+    padding-right: 20%;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators > .active{
+    background-color: goldenrod;
+}
+
 .carousel-caption{
-    bottom: 40% !important;
+    bottom: 30% !important;
+    font-family: Montserrat, sans-serif;
+}
+
+.carousel-caption > h1{
+    font-size: 90px !important;
+    font-weight: 800 !important;
+}
+
+.carousel-caption > h2{
+    font-size: 62px !important;
+    font-weight: 800 !important;
+    text-transform: capitalize !important;
+}
+
+.carousel-caption > h3{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: .1em !important;
+    line-height: 0 !important;
+    margin-top: 30px;
+}
+
+.aboutus-container{
+    padding-right: 100px;
+}
+
+.aboutus-grid{
+    display: grid;
+    grid-template-columns: auto 50%;
+    padding-top: 50px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-photo > img{
+    max-height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.aboutus-text > h4{
+    font-size: 16px;
+    letter-spacing: 2.9px;
+    text-transform: uppercase;
+    color:#cacece;
+}
+
+.aboutus-text > h3{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.344;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0em;
+    text-align: inherit;
+    color:#20202c;
+}
+
+.aboutus-text > h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.64;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0em;
+    text-align: inherit;
+    color:#20202c;
+}
+
+.aboutus-text > p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2.2;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#959595;
+}
+
+.btn-warning{
+    color: #fff !important;
+    padding: 10px 25px !important;
+    border-radius: 0% !important;
 }
